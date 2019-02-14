@@ -75,11 +75,12 @@
 - Scala 2.11
 - Docker image for HDP Sandbox
 
-## Commands to run 
+## Commands to run
+Solution is avalable inside folder /PayTMChallenge 
 ```bash
 sbt assembly
 ```
-* submit to HDP Sandbox, spark.sh in script/
+* submit to HDP Sandbox, spark.sh in /PayTMChallenge/script/
 
 ### Additional notes:
 - IP addresses do not guarantee distinct users, but this is the limitation of the data. As a bonus, consider what additional data would help make better analytical conclusions
